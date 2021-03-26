@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Component-Library</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <ul id="list-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="avator-div">
+      <h1>Avators</h1>
+      <img src="./Images/0.jpg" alt="sm-Avatar" class="avatar-sm" />
+      <img src="./Images/0.jpg" alt="md-Avatar" class="avatar-md" />
+      <img src="./Images/0.jpg" alt="md-Avatar" class="avatar-smd" />
+      <img src="./Images/0.jpg" alt="md-Avatar" class="avatar-lg" />
+    </div>
+
+    <div class="alert-div">
+      <h1>Alerts!</h1>
+      <div class="alert-container">
+        <div class="alert alert-success" role="alert">
+          <i class="fa fa-check-circle fa-2x"> </i> 
+          <span>  Success Alert </span>
+        </div>
+        <div class="alert alert-danger" role="alert">
+          <i class="fa fa-exclamation-triangle fa-2x"> </i> 
+          <span>  Danger Alert </span>
+        </div>
+        <div class="alert alert-warning" role="alert">
+          <i class="fa fa-exclamation-circle fa-2x"> </i>
+          <span>  Warning Alert </span>
+        </div> 
+        <div class="alert alert-info" role="alert">
+          <i class="fa fa-info fa-2x"> </i>
+          <span>  Information Alert </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="badges-div">
+        <h1>badges</h1>
+        <div class="normal-badges">
+            <span class="badge bg-primary">Primary</span>
+            <span class="badge bg-secondary">Secondary</span>
+            <span class="badge bg-success">Success</span>
+            <span class="badge bg-danger">Danger</span>
+            <span class="badge bg-warning ">Warning</span>
+            <span class="badge bg-info ">Info</span>
+            <span class="badge bg-gray ">Light</span>
+            <span class="badge bg-dark">Dark</span>
+        </div>
+        <div class="rounded-badges">
+            <span class="badge rounded-pill bg-primary">Primary</span>
+            <span class="badge rounded-pill bg-secondary">Secondary</span>
+            <span class="badge rounded-pill bg-success">Success</span>
+            <span class="badge rounded-pill bg-danger">Danger</span>
+            <span class="badge rounded-pill bg-warning">Warning</span>
+            <span class="badge rounded-pill bg-info ">Info</span>
+            <span class="badge rounded-pill bg-gray">Light</span>
+            <span class="badge rounded-pill bg-dark">Dark</span>
+        </div>
+    </div>
+    <h1> Badges on Icons</h1>
+    <div class="badges-icon">
+        <button type="button" class="icon-button bg-light">
+            <span class="material-icons">notifications</span>
+            <span class="icon-button-badge">9+</span>
+        </button>
+    </div>
+    <h1>Bagde on avator</h1>
+    <div class="icon-button">
+      <img src="./Images/0.jpg" alt="smd-Avatar" class="avatar-smd" />
+      <span class="avator-badge bg-success"></span>
+    </div>
+    <h1>Buttons</h1>
+    <div class="buttons">
+      <button class="btn btn-primary bg-primary">Primary</button>
+      <button class="btn btn-secondary bg-secondary">Secondary</button>
+      <button class="btn btn-success bg-success">Success</button>
+      <button class="btn btn-danger bg-danger">Danger</button>
+      <button class="btn btn-warning bg-warning">Warning</button>
+      <button class="btn btn-info bg-info">Info</button>
+      <button class="btn btn-light bg-light">Light</button>
+      <button class="btn btn-dark bg-dark">Dark</button>
+      <button class="btn btn-link bg-link">Link</button>
+    </div>
+
+    <h3>Outlined Buttons</h3>
+      <div class="btn-outlined">
+        <button class="btn btn-outline-primary">Primary</button>
+        <button class="btn btn-outline-secondary">Secondary</button>
+        <button class="btn btn-outline-success">Success</button>
+        <button class="btn btn-outline-danger">Danger</button>
+        <button class="btn btn-outline-warning">Warning</button>
+        <button class="btn btn-outline-info">Info</button>
+        <button class="btn btn-outline-light">Light</button>
+        <button class="btn btn-outline-dark">Dark</button>
+      </div>
+    <h3>Large Buttons</h3>
+      <button type="button" class="btn btn-primary btn-lg bg-primary">Large button</button>
+      <button type="button" class="btn btn-secondary btn-lg bg-secondary">Large button</button>  
+      <h3>Disabled buttons</h3>
+      <button type="button" class=" btn-lg btn-primary bg-primary" disabled>Primary button</button>
+      <button type="button" class=" btn-secondary btn-lg bg-secondary" disabled>Button</button> 
+    <h3>Icon Button</h3>
+    <button class="btn-icon bg-success"><i class="fa fa-home"></i></button>
+    <button class="btn-icon bg-gray"><i class="fa fa-bars"></i></button>
+    <button class="btn-icon bg-danger"><i class="fa fa-trash"></i></button>
+    <button class="btn-icon bg-danger"><i class="fa fa-close"></i></button>
+    <button class="btn-icon bg-info"><i class="fa fa-folder"></i></button>
+    
+    <h3>Icon buttons with text:</h3>
+    <button class="btn-icon bg-success"><i class="fa fa-home"></i> Home</button>
+    <button class="btn-icon bg-gray"><i class="fa fa-bars"></i> Menu</button>
+    <button class="btn-icon bg-danger"><i class="fa fa-trash"></i> Trash</button>
+    <button class="btn-icon bg-danger"><i class="fa fa-close"></i> Close</button>
+    <button class="btn-icon bg-info"><i class="fa fa-folder"></i> Folder</button>
+
+    <h3>Floating action button</h3>
+    <button class = "btn-floating-action">+</button>
+
+  </body>
+</html>
