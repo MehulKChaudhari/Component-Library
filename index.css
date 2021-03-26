@@ -389,3 +389,36 @@
 .btn-floating-action:hover {
   background: red;
 }
+
+
+/* Components navigation  */
+
+.other-components {
+  padding: 1rem 1rem 0rem 1rem;
+}
+
+.other-components .active {
+  font-weight: bolder;
+  color: var(--danger);
+
+}
+
+.other-components li {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 0.5rem;
+  border: 1px solid black;
+  margin: 15px;
+}
+.other-components a{
+  color: black;
+  padding: 5px;
+}
+
+.other-components ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
